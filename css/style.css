@@ -23,7 +23,7 @@ h1 {
     right: 0;
     text-align: center;
     padding: 30px 20px;
-    margin-right: 100px;
+    margin-right: 6vw;
 }
 
 h2 {
@@ -38,14 +38,17 @@ p, blockquote {
     background-color: var(--color-verde);
 }
 
+.menu1 > li {
+    height: 40px;
+    align-items: center;
+    display: flex;
+}
+
 .menu1 > li:hover {
     color: rgb(1, 38, 5);
     border-radius: 10px;
-    border: solid 20px rgb(1, 30, 2);
     background-color: rgb(1, 30, 2);
-    padding-bottom: 15px;
     transition: 0.1s;
-
 }
 
 li a {
@@ -53,22 +56,21 @@ li a {
     font-family: "lato";
     list-style: none;
     text-decoration: none;
-    font-size: 2vw;
-    
+    font-size: 2vw; 
 }
 
 .menu {
     margin: 0;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
     padding-top: 0px;
     width: 100%;
     display: flex;
+    margin-top: -5px;
 }
 
 .menu {
     position: sticky;
     top: 0;
-    background-color: red;
 }
 
 .menu1 {
@@ -83,8 +85,11 @@ nav.menu {
 .menu > ul  {
     display: flex;
     justify-content: space-around;
-    border-top: 20px solid ;
-    margin-top: 40px;
+    border-top: 7px solid ;
+    margin-top: 0px;
+    padding-top: -10;
+    padding-bottom: 15px;
+
 }
 
 li {
@@ -97,11 +102,12 @@ li {
 
 :root {
     --width-content: 1200px;
-    margin: 0 auto;
+    
 }
 
 .width-content {
     max-width: var(--width-content);
+    margin: 0 auto;
 }
 
 /* =============================================================================main */
@@ -191,6 +197,7 @@ li {
     justify-content:center;
     align-items: center;
     flex-direction: row-reverse;
+    margin: 10% 0;
 }
 
 .sec5 {
@@ -217,7 +224,7 @@ li {
 
 .titulo-citas {
     text-align: center;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 .sec5 {
@@ -230,7 +237,7 @@ li {
     display: flex;
     width: 70%;
     justify-content: space-between;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 cite {
@@ -240,7 +247,7 @@ cite {
 }
 
 .cita2 {
-    margin: 40px 80px;
+    margin: 0px 40px;
 }
 
 .cita1 > cite {
@@ -288,13 +295,14 @@ blockquote {
 }
 
 .div-footer1 > div > img {
-    width: 80px;
+    width: 4vw;
 }
 
 .div-footer2 {
     display: flex;
     justify-content: end;
     width: 50%;
+    gap: 10px;
 }
 
 .div-footer2 > div {
@@ -309,7 +317,6 @@ blockquote {
     color: white;
 }
 
-
 .div4 .div-texto {
     color: white;
 }
@@ -317,3 +324,81 @@ blockquote {
 .div2 .div-texto {
     color: white;
 }
+
+
+/* ============================================varietats */
+
+.contenedor-main {
+    background-image: url(../img/nosaltres_background.jpg); /* Ruta de tu imagen */
+    width: 100%; /* Ancho del contenedor */
+    height: 100vw; /* Altura del contenedor */
+    background-size: cover; /* Escalar la imagen para cubrir todo el contenedor */
+    background-position: center; /* Posición de la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evitar que la imagen se repita */
+    padding: 15vw;
+    padding-top: 4vw;
+    padding-bottom: 0;
+}
+
+.contenedor-main > main > p {
+    font-size: 3vw;
+    padding: 100px;
+}
+
+.parrafo-nosaltres {
+    font-family: "lato", sans-serif;
+    font-weight: 900;
+    font-size: 3vw;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0.5);
+}
+
+.nosaltres > h2 {
+    font-weight: 900;
+    font-size: 6vw;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0.5);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* ==============================================Nosaltres */
+
+
+.varietats-main {
+    background-image: url(../img/varietats_background.jpg); /* Ruta de tu imagen */
+    width: 100%; /* Ancho del contenedor */
+    height: 100vw; /* Altura del contenedor */
+    background-size: cover; /* Escalar la imagen para cubrir todo el contenedor */
+    background-position: center; /* Posición de la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evitar que la imagen se repita */
+    padding: 15vw;
+    padding-top: 8vw;
+    padding-bottom: 0;
+}
+
+.varietats-main > main > p {
+    font-size: 3vw;
+    padding: 100px;
+}
+
+.parrafo-varietats {
+    font-weight: 900;
+    font-size: 3vw;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0.5);
+}
+
+.varietats > h2 {
+    font-weight: 900;
+    font-size: 6vw;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0.5);
+    text-align: center;
+    margin-bottom: 10vw;
+}
+
+
+
+
+
