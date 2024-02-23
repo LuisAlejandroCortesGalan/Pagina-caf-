@@ -1,0 +1,436 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: "Dancing Script", "lato", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-verde: #053617;
+}
+
+
+ /* =============================================================================================header */
+h1 {
+    font-size: 7vw;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    padding: 30px 20px;
+    margin-right: 6vw;
+}
+
+h2 {
+    font-size: 4vw;
+}
+
+p, blockquote {
+    font-size: 1.8vw;
+}
+
+.menu, .sec2, .sec4 {
+    background-color: var(--color-verde);
+}
+
+.menu1 > li {
+    height: 40px;
+    align-items: center;
+    display: flex;
+}
+
+.menu1 > li:hover {
+    color: rgb(1, 38, 5);
+    border-radius: 10px;
+    background-color: rgb(1, 30, 2);
+    transition: 0.1s;
+}
+
+li a {
+    color: white;
+    font-family: "lato";
+    list-style: none;
+    text-decoration: none;
+    font-size: 2vw; 
+}
+
+.menu {
+    margin: 0;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    width: 100%;
+    display: flex;
+    margin-top: -5px;
+}
+
+.menu {
+    position: sticky;
+    top: 0;
+}
+
+.menu1 {
+    align-items: center;
+    width: 70%;
+}
+
+nav.menu {
+    justify-content: center;
+}
+
+.menu > ul  {
+    display: flex;
+    justify-content: space-around;
+    border-top: 7px solid ;
+    margin-top: 0px;
+    padding-top: -10;
+    padding-bottom: 15px;
+
+}
+
+li {
+    list-style: none;
+}
+
+.img1 {
+    width: 100%;
+}
+
+:root {
+    --width-content: 1200px;
+    
+}
+
+.width-content {
+    max-width: var(--width-content);
+    margin: 0 auto;
+}
+
+/* =============================================================================main */
+
+
+.sec1 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+}
+
+.div1 {
+    width: 70%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.imga {
+    width: 50%;
+}
+
+.imgb {
+    width: 50%;
+}
+
+.imgc {
+    width: 50%;
+}
+
+.imgd {
+    width: 50%;
+}
+
+
+.div-texto {
+    width: 50%;
+}
+
+.sec2 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+}
+
+.div2 {
+    width: 70%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.imgb {
+    width: 50%;
+}
+
+.div-texto {
+    width: 50%;
+    padding: 0 50px;
+}
+
+.sec3 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.div3 {
+    width: 70%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.sec4 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.div4 {
+    width: 70%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: 10% 0;
+}
+
+.sec5 {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-bottom: 100px
+}
+
+.div5 {
+    width: 70%;
+}
+
+.sec6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-verde);
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+
+.titulo-citas {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.sec5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-citas {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+cite {
+    font-size: 1.8vw;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cita2 {
+    margin: 0px 40px;
+}
+
+.cita1 > cite {
+    display: flex;
+    justify-content: end;
+}
+
+.cita2 > cite {
+    display: flex;
+    justify-content: end;
+}
+
+.cita3 > cite {
+    display: flex;
+    justify-content: end;
+}
+
+blockquote {
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* =================================================================footer */
+
+.divs-footer {
+    display: flex;
+    width: 70%;
+    gap: 10vw;
+}
+
+.div-footer1 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.div-footer1 > div {
+    display: flex;
+    gap: 2vw;
+}
+
+.div-footer1 > p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.div-footer1 > div > img {
+    width: 4vw;
+}
+
+.div-footer2 {
+    display: flex;
+    justify-content: end;
+    width: 50%;
+    gap: 10px;
+}
+
+.div-footer2 > div {
+    width: 100%;
+    justify-content: end;
+    font-size: 1.5vw;
+    color: white;
+}
+
+.list-ul-footer > h3, li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.div4 .div-texto {
+    color: white;
+}
+
+.div2 .div-texto {
+    color: white;
+}
+
+
+/* ============================================nosaltres */
+
+.contenedor-main {
+    background-image: url(../img/nosaltres_background.avif); /* Ruta de tu imagen */
+    width: 100%; /* Ancho del contenedor */
+    height: 100vw; /* Altura del contenedor */
+    background-size: cover; /* Escalar la imagen para cubrir todo el contenedor */
+    background-position: center; /* Posición de la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evitar que la imagen se repita */
+    padding: 15vw;
+    padding-top: 4vw;
+    padding-bottom: 0;
+}
+
+.contenedor-main > main > p {
+    font-size: 3vw;
+    padding: 100px;
+}
+
+.parrafo-nosaltres {
+    font-family: "lato", sans-serif;
+    font-weight: 900;
+    font-size: 3vw;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0.5);
+}
+
+.nosaltres > h2 {
+    font-weight: 900;
+    font-size: 6vw;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0.5);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* ==============================================varietats */
+
+
+.varietats-main {
+    background-image: url(../img/varietats_background.avif); /* Ruta de tu imagen */
+    width: 100%; /* Ancho del contenedor */
+    height: 100vw; /* Altura del contenedor */
+    background-size: cover; /* Escalar la imagen para cubrir todo el contenedor */
+    background-position: center; /* Posición de la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evitar que la imagen se repita */
+    padding: 15vw;
+    padding-top: 8vw;
+    padding-bottom: 0;
+}
+
+.varietats-main > main > p {
+    font-size: 3vw;
+    padding: 100px;
+}
+
+.parrafo-varietats {
+    font-weight: 900;
+    font-size: 3vw;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0.5);
+}
+
+.varietats > h2 {
+    font-weight: 900;
+    font-size: 6vw;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0.5);
+    text-align: center;
+    margin-bottom: 10vw;
+}
+
+/* =============================================botiga */
+
+
+
+.botiga-img {
+    width: 300px;
+}
+
+.div-botiga {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 150px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.botiga-img {
+    width: 300px;
+    height: 200px;
+    margin-left: 4vw;
+}
+
+.botigaytitulo {
+    border: 10px solid white;
+    width: 400px;
+    height: 400px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.botiga-h2 {
+    text-align: center;
+}
