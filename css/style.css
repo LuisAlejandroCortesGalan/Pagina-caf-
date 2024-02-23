@@ -326,10 +326,17 @@ blockquote {
 }
 
 
+<<<<<<< HEAD
 /* ============================================nosaltres */
 
 .contenedor-main {
     background-image: url(../img/nosaltres_background.avif); /* Ruta de tu imagen */
+=======
+/* ============================================varietats */
+
+.contenedor-main {
+    background-image: url(../img/nosaltres_background.jpg); /* Ruta de tu imagen */
+>>>>>>> fbef780db8b6694cd762e442a963697aec25555a
     width: 100%; /* Ancho del contenedor */
     height: 100vw; /* Altura del contenedor */
     background-size: cover; /* Escalar la imagen para cubrir todo el contenedor */
@@ -362,11 +369,19 @@ blockquote {
     margin-bottom: 50px;
 }
 
+<<<<<<< HEAD
 /* ==============================================varietats */
 
 
 .varietats-main {
     background-image: url(../img/varietats_background.avif); /* Ruta de tu imagen */
+=======
+/* ==============================================Nosaltres */
+
+
+.varietats-main {
+    background-image: url(../img/varietats_background.jpg); /* Ruta de tu imagen */
+>>>>>>> fbef780db8b6694cd762e442a963697aec25555a
     width: 100%; /* Ancho del contenedor */
     height: 100vw; /* Altura del contenedor */
     background-size: cover; /* Escalar la imagen para cubrir todo el contenedor */
@@ -398,6 +413,7 @@ blockquote {
     margin-bottom: 10vw;
 }
 
+<<<<<<< HEAD
 /* =============================================botiga */
 
 
@@ -434,3 +450,9 @@ blockquote {
 .botiga-h2 {
     text-align: center;
 }
+=======
+
+
+
+
+>>>>>>> fbef780db8b6694cd762e442a963697aec25555a
